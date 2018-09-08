@@ -1,0 +1,17 @@
+{
+  "name": "playfree-slide-deck",
+  "version": "1.0.0",
+  "description": "Slide deck for PlayFree presentation",
+  "main": "index.js",
+  "repository": "https://github.com/grezxune/playfree-slide-deck.git",
+  "author": "Tommy Treb <tomtrezb2003@gmail.com>",
+  "license": "MIT",
+  "scripts": {
+    "start": "mdx-deck deck.mdx"
+  },
+  "dependencies": {},
+  "devDependencies": {
+    "grid-styled": "^5.0.2",
+    "mdx-deck": "^1.7.3"
+  }
+}
