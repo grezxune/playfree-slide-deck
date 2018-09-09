@@ -7,7 +7,8 @@
   "author": "Tommy Treb <tomtrezb2003@gmail.com>",
   "license": "MIT",
   "scripts": {
-    "start": "mdx-deck deck.mdx"
+    "start": "mdx-deck deck.mdx",
+    "build": "mdx-deck build deck.mdx"
   },
   "dependencies": {},
   "devDependencies": {
