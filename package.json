@@ -8,7 +8,7 @@
   "license": "MIT",
   "scripts": {
     "start": "mdx-deck deck.mdx",
-    "build": "mdx-deck build deck.mdx; mkdir dist/playfree-mockups; cp -r playfree-mockups/ dist/playfree-mockups/;"
+    "build": "mdx-deck build deck.mdx; mkdir dist/static; cp -r playfree-mockups/ dist/static/;"
   },
   "dependencies": {},
   "devDependencies": {
