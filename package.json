@@ -8,7 +8,11 @@
   "license": "MIT",
   "scripts": {
     "start": "mdx-deck deck.mdx",
-    "build": "mdx-deck build deck.mdx; mkdir dist/static; cp -r playfree-mockups/ dist/static/;"
+    "build": "yarn clean && yarn static && yarn html && yarn pdf",
+    "clean": "rm -rf docs",
+    "static": "mkdir -p docs/static && cp -R src/static docs/",
+    "html": "mdx-deck build src/deck.mdx -d docs",
+    "pdf": "mdx-deck pdf src/deck.mdx -d docs"
   },
   "dependencies": {},
   "devDependencies": {
